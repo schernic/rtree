@@ -1,0 +1,27 @@
+To build the JSI library from source, install maven 3 and run the following:
+
+% cd <location-of-pom.xml>
+% mvn package
+
+This will generate the binary package (jsi-x.y.z.jar) in the target subdirectory.
+
+The following is a list of useful maven targets:
+  o eclipse:eclipse (generate eclipse project files; see below)
+  o clean 
+  o compile
+  o test
+  o -Dtest=ReferenceCompareTest_10000 test
+  o package	
+  o site
+  o assembly:single (create package only)
+  o site:deploy
+  o deploy
+  
+To import the project into eclipse, run mvn eclipse:eclipse, and then set the M2_REPO variable
+in Window -> Preferences -> Java -> Build Path -> Classpath Variables to point to your local
+maven repository (e.g. ~/.m2/repository)
+
+
+
+
+

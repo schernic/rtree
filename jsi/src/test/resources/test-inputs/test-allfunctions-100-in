@@ -1,0 +1,36 @@
+randomize         1
+addRandom        40     0 20000
+randomize         1
+deleteRandom     20     0 20000
+#
+randomize         2
+addRandom        40    40 20000
+randomize         2
+deleteRandom     20    40 20000
+#
+randomize         3
+addRandom        40    80 20000
+randomize         3
+deleteRandom     20    80 20000
+#
+randomize         4
+addRandom        40   120 20000
+randomize         4
+deleteRandom     20   120 20000
+#
+randomize         5
+addRandom        40   160 20000
+randomize         5
+deleteRandom     20   160 20000
+#
+randomize         6
+intersectRandom 100 20000
+#
+randomize         7
+nearestRandom   100
+#
+randomize         8
+nearestNRandom  100     5 
+#
+randomize         9
+containsRandom   100 100000

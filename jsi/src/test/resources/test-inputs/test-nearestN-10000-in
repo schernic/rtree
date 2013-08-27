@@ -1,0 +1,14 @@
+randomize          1
+addRandom       5000   0   10000
+nearestNRandom 10000   1   10000
+nearestNRandom 10000   2   10000
+nearestNRandom 10000   8   10000
+nearestNRandom 10000   32  10000
+nearestNRandom 10000   256 10000
+
+distanceQuantizer 10000
+addRandom       5000   5000 10000
+nearestNRandom 10000   1    10000
+nearestNRandom 10000   2    10000
+nearestNRandom 10000   64   10000
+nearestNRandom 10000   512  10000

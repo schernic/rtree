@@ -1,0 +1,11 @@
+*.class
+.metadata
+.classpath
+.project
+.settings
+target
+*~
+*.swp
+*.log
+
+
